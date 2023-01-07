@@ -117,3 +117,60 @@ main {
 .contact-banner-container {
   padding: 60px 616px 60px 60px;
 }
+
+/* footer styles */
+.footer {
+  background: #151414;
+  color: #ffffff;
+  height: 577px;
+}
+.connect {
+  display: flex;
+  gap: 330px;
+  margin: 0 auto;
+  width: 1140px;
+  padding-top: 131px;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.info-description {
+  margin-bottom: 24px;
+}
+.info-email {
+  margin-bottom: 16px;
+}
+.info-call {
+  margin-bottom: 24px;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+.connect-form input[type="email"] {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin-bottom: 16px;
+  width: 325px;
+  background-color: #151414;
+}
+.connect-form input[type="submit"] {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 30px;
+  background: #005fac;
+  border-radius: 8px;
+  border: 0;
+  color: #f3f3f3;
+}
