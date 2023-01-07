@@ -57,6 +57,34 @@ main {
   margin-bottom: 30px;
 }
 
+/* learnings styles */
+.learned{
+  margin-bottom: 131px;
+}
+.learned-container{
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+}
+.learned-content {
+  padding-top: 200px;
+  padding-left: 130px;
+  width: 600px;
+}
+.learned-list {
+  color: #444343;
+}
+.learned-list li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.learned-list i {
+  color: #16d887;
+}
+.learned-img img{
+  height: 725px;
+  width: 560px;
+}
 /* failure styles */
 .failure {
   margin-bottom: 131px;
@@ -76,9 +104,10 @@ main {
 }
 .failures-list li {
   list-style: none;
+  margin-bottom: 8px;
 }
 .failures-list i {
-  color: #16d887;
+  color: #e64724;
 }
 
 /* plans section styles */
@@ -146,6 +175,10 @@ main {
 }
 .info-call {
   margin-bottom: 24px;
+}
+.connect-social-icon{
+  display: flex;
+  gap: 17px;
 }
 .form-title {
   font-weight: 600;
