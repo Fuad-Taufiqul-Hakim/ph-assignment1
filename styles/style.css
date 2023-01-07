@@ -24,8 +24,8 @@
   color: #444343;
   margin-bottom: 16px;
 }
-main{
-  width: 1072px;
+main {
+  width: 1140px;
   margin: 0 auto;
 }
 /* header styles */
@@ -52,7 +52,7 @@ main{
 }
 
 /* failure styles */
-.failure{
+.failure {
   margin-bottom: 131px;
 }
 .failure-container {
@@ -60,8 +60,9 @@ main{
   justify-content: center;
   gap: 87px;
 }
-.failure-content{
+.failure-content {
   padding-top: 240px;
+  padding-right: 130px;
   width: 600px;
 }
 .failures-list {
@@ -72,4 +73,27 @@ main{
 }
 .failures-list i {
   color: #16d887;
+}
+
+/* plans section styles */
+.plans {
+  text-align: center;
+  margin-bottom: 131px;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.plans-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 27px;
+  margin-bottom: 16px;
+}
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #757474;
 }
