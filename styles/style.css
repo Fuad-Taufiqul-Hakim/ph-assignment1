@@ -20,6 +20,12 @@
   color: #151414;
   margin-bottom: 24px;
 }
+.section-title-wh {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
 .section-description {
   color: #444343;
   margin-bottom: 16px;
@@ -78,7 +84,7 @@ main {
 /* plans section styles */
 .plans {
   text-align: center;
-  margin-bottom: 131px;
+  margin-bottom: 80px;
 }
 .plans-container {
   display: flex;
@@ -96,4 +102,18 @@ main {
   font-weight: 500;
   font-size: 25px;
   color: #757474;
+}
+
+/* contact banner styles */
+.contact-banner {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+  border-radius: 8px;
+  color: #ffffff;
+  margin-bottom: 131px;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.contact-banner-container {
+  padding: 60px 616px 60px 60px;
 }
